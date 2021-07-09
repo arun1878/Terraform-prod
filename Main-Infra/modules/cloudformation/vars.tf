@@ -1,0 +1,13 @@
+variable "stackname" {}
+variable "bastion_sg_id" {}
+variable "KeyPairName" {}
+variable "MongoDBAdminPassword" {}
+variable "MongoDBAdminUsername" {}
+variable "NodeInstanceType" {}
+variable "PrimaryNodeSubnet" {}
+variable "Secondary0NodeSubnet" {}
+variable "Secondary1NodeSubnet" {}
+variable "QSS3BucketRegion" {}
+variable "vpc_id" {}
+variable "VolumeSize" {}
+variable "VolumeType" {}
